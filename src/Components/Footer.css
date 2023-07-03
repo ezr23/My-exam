@@ -1,0 +1,35 @@
+
+  
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+  }
+
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 40px; /* Agrega espacio entre los iconos */
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0; /* Quita el margen derecho del último icono */
+  }
+  
+  .social-icons a svg {
+    font-size: 30px; /* Haz los iconos más grandes */
+    color: #ffffff;
+  }
+  
+  
